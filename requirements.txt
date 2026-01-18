@@ -1,0 +1,16 @@
+streamlit
+pdfplumber
+pandas
+pytesseract
+langchain
+transformers
+pdf2image
+pillow
+python-dotenv
+PyPDF2
+langchain-huggingface
+langchain-community
+faiss-cpu
+huggingface-hub
+sentencepiece
+sacremoses
