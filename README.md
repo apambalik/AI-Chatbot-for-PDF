@@ -2,7 +2,7 @@
 
 ChillBot is a specialized Streamlit-based AI assistant designed to help you interact with your PDF documents. It goes beyond simple text extraction by handling scanned images (OCR), extracting tables with automatic visualization, and providing advanced NLP features like summarization and translation.
 
-## 🌟 Key Features
+## Key Features
 
 - **Multi-PDF Interaction**: Upload up to 3 PDFs (max 5MB each) and chat with them simultaneously.
 - **Intelligent RAG**: Uses LangChain and FAISS vector stores with Hugging Face embeddings for accurate document retrieval.
@@ -12,7 +12,7 @@ ChillBot is a specialized Streamlit-based AI assistant designed to help you inte
 - **Translation**: Enter `[Translate]` to translate the document content into Indonesian.
 - **Chat History**: Save and download your conversation history for future reference.
 
-## 🛠 Prerequisites: OCR & PDF Processing
+## Prerequisites: OCR & PDF Processing
 
 To enable OCR (for scanned PDFs) and PDF-to-image conversion, you must install the following external tools on your Windows machine:
 
@@ -34,7 +34,7 @@ Poppler is required to convert PDF pages into images for the OCR process.
   poppler_path = r"C:\path\to\your\poppler\Library\bin"
   ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**:
    ```bash
@@ -58,7 +58,7 @@ Poppler is required to convert PDF pages into images for the OCR process.
    streamlit run app.py
    ```
 
-## 📝 How to Use
+## How to Use
 1. Select your preferred LLM model in the sidebar.
 2. Upload your PDF(s) and click **Process**.
 3. View any extracted tables and visualizations in the main area.
